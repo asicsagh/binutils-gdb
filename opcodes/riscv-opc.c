@@ -487,6 +487,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"andi",        0, INSN_CLASS_I, "d,s,j",     MATCH_ANDI, MASK_ANDI, match_opcode, 0 },
 {"ppucsrwr",    0, INSN_CLASS_I, "d,s,j",     MATCH_PPUCSRWR, MASK_PPUCSRWR, match_opcode, 0 },
 {"ppupmw",      0, INSN_CLASS_I, "d,s,j",     MATCH_PPUPMW, MASK_PPUPMW, match_opcode, 0 },
+{"ppupmr",      0, INSN_CLASS_I, "d,s,j",     MATCH_PPUPMR, MASK_PPUPMR, match_opcode, 0 },
 {"and",         0, INSN_CLASS_C, "Cs,Cw,Ct",  MATCH_C_AND, MASK_C_AND, match_opcode, INSN_ALIAS },
 {"and",         0, INSN_CLASS_C, "Cs,Ct,Cw",  MATCH_C_AND, MASK_C_AND, match_opcode, INSN_ALIAS },
 {"and",         0, INSN_CLASS_C, "Cs,Cw,Co",  MATCH_C_ANDI, MASK_C_ANDI, match_opcode, INSN_ALIAS },
