@@ -489,6 +489,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"pmupmcsrr",   0, INSN_CLASS_I, "d,s,t",     MATCH_PMUPMCSRR, MASK_PMUPMCSRR, match_opcode, 0 },
 {"pmupmpixw",   0, INSN_CLASS_I, "d,s,t",     MATCH_PMUPMPIXW, MASK_PMUPMPIXW, match_opcode, 0 },
 {"pmupmpixr",   0, INSN_CLASS_I, "d,s,t",     MATCH_PMUPMPIXR, MASK_PMUPMPIXR, match_opcode, 0 },
+{"pmupmgate",   0, INSN_CLASS_I, "d,j",       MATCH_PMUPMGATE, MASK_PMUPMGATE, match_opcode, 0 },
 {"and",         0, INSN_CLASS_C, "Cs,Cw,Ct",  MATCH_C_AND, MASK_C_AND, match_opcode, INSN_ALIAS },
 {"and",         0, INSN_CLASS_C, "Cs,Ct,Cw",  MATCH_C_AND, MASK_C_AND, match_opcode, INSN_ALIAS },
 {"and",         0, INSN_CLASS_C, "Cs,Cw,Co",  MATCH_C_ANDI, MASK_C_ANDI, match_opcode, INSN_ALIAS },
